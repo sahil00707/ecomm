@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    h1{
+        color: red;
+    }
+    .search{
+     
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        input{
+            border: none;
+            outline: none;
+            background-color: white;
+            padding: 10px 5px;
+        }
+        button{
+            background-color: red;
+            color:white;
+            border: none;
+            padding: 10px 5px;
+        }
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin: 0 10px;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}

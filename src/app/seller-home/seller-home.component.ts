@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { GetApiService } from '../services/get-api.service';
 
 @Component({
   selector: 'app-seller-home',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class SellerHomeComponent {
 
+  login(data:object){
+  this.getapi.getApi(data);
+  }
+constructor(private getapi:GetApiService,private http:HttpClient){
+
+}
 }

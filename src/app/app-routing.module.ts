@@ -18,7 +18,7 @@ const routes: Routes = [
   {
     path:'app-seller-home',
     component:SellerHomeComponent,
-    canActivate:[AuthGuard]
+    //canActivate:[AuthGuard]
   }
 ];
 

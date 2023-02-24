@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import { GetApiService } from '../services/get-api.service';
 
 @Component({
@@ -7,12 +7,17 @@ import { GetApiService } from '../services/get-api.service';
   templateUrl: './seller-home.component.html',
   styleUrls: ['./seller-home.component.scss']
 })
-export class SellerHomeComponent {
+export class SellerHomeComponent  implements OnInit{
 
-  login(data:object){
-  this.getapi.getApi(data);
-  }
 constructor(private getapi:GetApiService,private http:HttpClient){
 
 }
+  ngOnInit(): void {
+   
+  }
+
+register(data:any){
+  this.getapi.sendData(data);
+  console.log(this.getapi.getApi())
+  }
 }

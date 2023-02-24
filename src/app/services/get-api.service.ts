@@ -7,22 +7,27 @@ import { Router } from '@angular/router';
 })
 export class GetApiService {
   isSellerLoggedIn = new BehaviorSubject<boolean>(false);
-
-
-
-  authenticateUser(data:any){
-this.http.post('',data)
+ delete(id:number){
+return this.http.delete(`http://localhost:3000/seller/${id}`)
+ }
+  getData(){
+   return this.http.get('http://localhost:3000/seller')
+  }
+  addProduct(data: any) {
+    this.http.post('http://localhost:3000/product', data).subscribe();
   }
 
-  getApi(data: any) {
-    this.http.get(`http://localhost:3000/seller?email=${data.email}`,  { observe: 'response' }).subscribe((res:any) => {
-      if (res && res.body.length>=1) {
-     //   this.isSellerLoggedIn.next(true);
-        console.log(res)
-      //  this.router.navigate(['/app-seller-home'])
+  sendData(data: any) {
+    return (this.http.post('http://localhost:3000/seller', data).subscribe());
+    localStorage.setItem('data', JSON.stringify(data))
+  }
+  getApi() {
+    this.http.get(`http://localhost:3000/seller`, { observe: 'response' }).subscribe((res: any) => {
+      if (res && res.body.length >= 1) {
+        console.log(res);
       }
       else {
-console.log("Something went wrong")
+        console.log("Something went wrong")
       }
     });
   }

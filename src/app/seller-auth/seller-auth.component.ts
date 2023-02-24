@@ -11,8 +11,8 @@ export class SellerAuthComponent  implements OnInit{
    
   }
   signUp(data:object){
-this.getapi.getApi(data)
- 
+
+    this.getapi.sendData(data);
 
 
 this.router.navigate(['/app-seller-home'])

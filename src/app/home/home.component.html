@@ -1,1 +1,9 @@
-<p>home works!</p>
+<table>
+    <tr *ngFor="let i of this.data">
+        <td>{{i.id}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.password}}</td>
+        <td><button (click)="delete(i.id)">Delete</button></td>
+    </tr>
+</table>

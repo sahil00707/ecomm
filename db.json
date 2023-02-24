@@ -1,282 +1,333 @@
 {
   "seller": [
     {
-      "name": "sahil",
+      "name": "abcd",
       "email": "abc@gmail.com",
       "password": "sbx",
-      "id": 4
-    },
-    {
-      "name": "ds",
-      "email": "asas@gmail.com",
-      "password": "zx",
-      "id": 5
-    },
-    {
-      "name": "sfdf",
-      "email": "",
-      "password": "",
-      "id": 6
-    },
-    {
-      "name": "abcd",
-      "email": "",
-      "password": "",
-      "id": 7
-    },
-    {
-      "name": "abcd",
-      "email": "",
-      "password": "",
-      "id": 8
-    },
-    {
-      "name": "abcd",
-      "email": "",
-      "password": "",
-      "id": 9
-    },
-    {
-      "name": "sahil",
-      "email": "",
-      "password": "",
-      "id": 10
-    },
-    {
-      "name": "sahil",
-      "email": "",
-      "password": "",
       "id": 11
     },
     {
       "name": "sahil",
-      "email": "",
-      "password": "",
+      "email": "abc@gmail.com",
+      "password": "sbx",
       "id": 12
     },
     {
       "name": "sahil",
-      "email": "",
-      "password": "",
+      "email": "abc@gmail.com",
+      "password": "sbx",
       "id": 13
     },
     {
       "name": "sahil",
-      "email": "",
-      "password": "",
-      "id": 14
-    },
-    {
-      "name": "sahil",
-      "email": "",
-      "password": "",
-      "id": 15
-    },
-    {
-      "name": "sahil",
-      "email": "",
-      "password": "",
+      "email": "abc@gmail.com",
+      "password": "sbx",
       "id": 16
     },
     {
       "name": "sahil",
-      "email": "",
-      "password": "",
+      "email": "abc@gmail.com",
+      "password": "sbx",
       "id": 17
     },
     {
       "name": "sahil",
-      "email": "",
-      "password": "",
+      "email": "abc@gmail.com",
+      "password": "sbx",
       "id": 18
     },
     {
-      "name": "sahil",
-      "email": "",
-      "password": "",
-      "id": 19
-    },
-    {
-      "name": "sahil",
-      "email": "",
-      "password": "",
+      "name": "tgyuhfkj",
+      "email": "8yrhkm",
+      "password": "wertyhj",
       "id": 20
     },
     {
-      "name": "sahil",
-      "email": "",
-      "password": "",
+      "name": "tgyuhfkj",
+      "email": "8yrhkm",
+      "password": "wertyhj",
       "id": 21
     },
     {
       "name": "sahil",
-      "email": "abc@gmail.com",
-      "password": "sbx",
+      "email": "",
+      "password": "",
+      "id": 22
+    }
+  ],
+  "product": [
+    {
+      "name": "bag",
+      "price": 1299,
+      "color": "green",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "green",
+      "quantity": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 10
+    },
+    {
+      "name": "sahil",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 18
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 20
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
+      "id": 21
+    },
+    {
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 22
     },
     {
-      "name": "sahil",
-      "email": "abc@gmail.com",
-      "password": "sbx",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 23
     },
     {
-      "name": "divya",
-      "email": "abc@gmail.com",
-      "password": "sbx",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 24
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 25
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 26
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 27
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 28
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 29
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 30
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 31
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 32
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 33
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 34
     },
     {
-      "name": "sahil",
-      "email": "abcd@gmail.com",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 35
     },
     {
-      "name": "sahil",
-      "email": "",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 36
     },
     {
-      "email": "abc@gmail.com",
-      "password": "sbx",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 37
     },
     {
-      "email": "abc@gmail.com",
-      "password": "sbsdd",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 38
     },
     {
-      "email": "",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 39
     },
     {
-      "email": "",
-      "password": "",
+      "name": "sdad",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 40
     },
     {
-      "email": "",
-      "password": "",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 41
     },
     {
-      "email": "abc@gmail.com",
-      "password": "sbx",
+      "name": "",
+      "price": "",
+      "color": "",
+      "quantity": "",
       "id": 42
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "sbx",
-      "id": 43
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "sb",
-      "id": 44
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "sb",
-      "id": 45
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 46
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 47
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "sbx",
-      "id": 48
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "",
-      "id": 49
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "",
-      "id": 50
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "",
-      "id": 51
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "",
-      "id": 52
     }
   ]
 }

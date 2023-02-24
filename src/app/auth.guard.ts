@@ -7,6 +7,8 @@ import { GetApiService } from './services/get-api.service';
   providedIn: 'root'
 })
 export class AuthGuard implements CanActivate {
+
+
   constructor(private getapi:GetApiService){
 
   }
@@ -14,7 +16,7 @@ export class AuthGuard implements CanActivate {
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
     return this.getapi.isSellerLoggedIn
-    ;
+    
   }
   
 }

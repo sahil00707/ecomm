@@ -1,6 +1,7 @@
-<form class="myform"  #myform="ngForm" (ngSubmit)="login(myform.value)">
+<form class="myform"  #myform="ngForm" >
     
-    <input #email ngModel placeholder="Enter Your Email"  name="email" type="email">
-    <input #password ngModel placeholder="Enter Your Password"  name="password" type="password">
-    <button type="submit">Login</button>
+    <input  ngModel placeholder="Enter Your Name"  name="name" type="text">
+    <input  ngModel placeholder="Enter Your Email"  name="email" type="email">
+    <input  ngModel placeholder="Enter Your Password"  name="password" type="password">
+    <button type="submit" (click)="register(myform.value)">Register</button>
 </form>

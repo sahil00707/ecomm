@@ -1,0 +1,9 @@
+<form class="myform"  #myform="ngForm" >
+    
+    <input  ngModel placeholder="Enter product Name"  name="name" type="text">
+    <input  ngModel placeholder="Enter product price"  name="price" type="number">
+    <input  ngModel placeholder="Enter product color"  name="color" type="text">
+    <input  ngModel placeholder="Enter product quantity"  name="quantity" type="number">
+   
+    <button type="submit" (click)="addproduct(myform.value)">Register</button>
+</form>

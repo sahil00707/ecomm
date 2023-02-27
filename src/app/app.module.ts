@@ -9,23 +9,26 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { MyLibModule } from 'my-lib';
+
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    HomeComponent,
-    SellerAuthComponent,
-    SellerHomeComponent,
-    AddProductComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    HttpClientModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        NavbarComponent,
+        HomeComponent,
+        SellerAuthComponent,
+        SellerHomeComponent,
+        AddProductComponent
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule,
+        HttpClientModule,
+     
+    ]
 })
 export class AppModule { }
